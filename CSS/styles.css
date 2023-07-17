@@ -1,0 +1,191 @@
+*,*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(10, 10, 19);
+    background-image: url(/Images/wallpaperflare.com_wallpaper.jpg);
+}
+
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.nav-list{
+    display: flex;
+}
+.nav-list a{
+    color: #fff;
+    margin-left: 60px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+.nav-list a:hover{
+    border-bottom: 2px solid white;
+}
+.menu-icon{
+    color:#fff;
+    font-size: 2rem;
+    z-index: 1;
+    cursor: pointer;
+    display: none;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #4d9559 0%, #3870 28.53%, #133917 75.52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    padding: 0 5%;
+}
+/* section{  
+    padding: 0 1%;
+ } */
+.hero-text h5{
+    font-size: 1.2rem;
+    font-weight:400;
+    color:#fff;
+    margin-top: 50px;
+
+}
+.hero-text h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    margin-block: 2rem 5px;
+
+}
+.hero-text h1{
+    font-family: 'Bigelow Rules', cursive;
+    font-size: 90px;
+    line-height: 1;
+    color: #fff;
+    margin: 0 0 40px;
+}
+.hero-text p{
+    color: #fff;
+    font-size: 1rem;
+    line-height: 2;
+    margin-bottom: 40px;
+
+}
+.wizard{
+    color: rgb(230, 221, 162);
+    font-size: 1.5rem;
+}
+.hero-img{
+    width: 100% !important;
+}
+.hero-text a{
+    display: inline-block;
+    color: #fff;
+    background: #4d9559;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+}
+.hero-text a:hover{
+    background: transparent;
+    border: 1px solid white;
+    transform: translateX(4px);
+}
+.hero-text a i{
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+
+.icons{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    padding: 5% 0;
+    transform: translateY(-50%);
+}
+.icons i{
+    display: block;
+    margin:28px 0;
+    color: #fff;
+    transition: all .55s ease;
+
+}
+.icons .insta:hover{
+    color: #fa7e1e;
+}
+.icons .ytb:hover{
+    color: #c4302b;
+}
+.icons .twitter:hover{
+    color: #00acee;
+
+}
+
+.scroll{
+    position:absolute;
+    bottom: 6%;
+    right: 9%;
+}
+.scroll i{
+    display: block;
+    padding:12px;
+    font-size: 25px;
+    color: #fff;
+    background: #4d9559;
+    border-radius: 100px;
+    transition: all .55s ease;
+}
+.scroll i:hover{
+    transform: translateY(5px);
+    background: transparent;
+    border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
